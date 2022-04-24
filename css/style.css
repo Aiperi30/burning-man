@@ -1,0 +1,182 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.container {
+  width: 1170px;
+  padding: 0;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+
+body {
+  font-size: 16px;
+  color: black;
+  margin: 0;
+  padding: 0;
+  font-family: "Anton", sans-serif, "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+ul,
+li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background: url("../img/header-bg.jpg") no-repeat top center / cover;
+  height: 900px;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  padding-top: 57px;
+  /* margin-bottom: 220px; */
+}
+.header-logo {
+  margin-right: 68px;
+}
+
+.header-tel {
+  /* text-align: center; */
+  text-decoration: none;
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-left: auto;
+}
+.header-menu {
+  display: flex;
+}
+.menu-list {
+  margin-right: 40px;
+}
+.menu-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+}
+
+.hero-text {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+
+  margin: 216px 0 3px 0;
+}
+.hero-title {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 151px;
+  text-transform: uppercase;
+  color: #fff;
+  /* margin: 3px 0 15px 0; */
+  display: block;
+  margin-top: -9px;
+}
+
+.hero-link {
+  display: block;
+  /* margin: 15px 0 322px 0; */
+  border: 1px solid #fff;
+  padding: 18px 23px;
+  width: 283px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.about-title {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 75px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 113px 0 58px 0;
+}
+
+.about-wrapper {
+  display: flex;
+}
+.about-title-secondary {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 19px;
+}
+
+.about-right {
+  padding: 0 0 67px 36px;
+}
+
+.about-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: justify;
+  width: 564px;
+  color: #000000;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-wrapper {
+  display: flex;
+  gap: 55px;
+}
+
+.footer-wrapper p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  margin: 114px 0 80px 0;
+  color: #000000;
+}
