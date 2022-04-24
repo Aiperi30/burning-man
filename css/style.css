@@ -121,6 +121,10 @@ li {
   text-decoration: none;
 }
 
+section {
+  padding-top: 113px;
+  /* жаны башка section келип калса да padding-top: 113px ылдый тушуп турат; */
+}
 .about-title {
   font-family: "Anton";
   font-style: normal;
@@ -129,11 +133,12 @@ li {
   line-height: 75px;
   text-transform: uppercase;
   color: #000000;
-  margin: 113px 0 58px 0;
+  margin-bottom: 58px;
 }
 
 .about-wrapper {
   display: flex;
+  justify-content: space-between;
 }
 .about-title-secondary {
   font-family: "Anton";
@@ -141,9 +146,11 @@ li {
   font-weight: 400;
   font-size: 25px;
   line-height: 38px;
+  /* line-height: 1.62em; */
   text-transform: uppercase;
   color: #000000;
   margin-bottom: 19px;
+  /* text-align: justify;  текстер тегиз болуп калат бир линияда тургандай */
 }
 
 .about-right {
@@ -164,6 +171,7 @@ li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 67px;
 }
 
 .footer-wrapper {
